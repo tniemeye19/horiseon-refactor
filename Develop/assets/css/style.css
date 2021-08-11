@@ -1,13 +1,16 @@
+/* Selects all elements and applies a style to the page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* BODY STYLE START*/
 body {
     background-color: #d9dcd6;
 }
 
+/* HEADER STYLE START */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,6 +23,7 @@ body {
     font-size: 48px;
 }
 
+/* Adjusts only the "seo" letters in the Horiseon header */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -41,15 +45,19 @@ body {
     margin-left: 25px;
 }
 
+/* For all anchor elements noted in the html code, each will have the following style attributes. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* HEADER STYLE END */
 
+/* For all paragraphs noted in the html code, each will have the following style attributes. */
 p {
     font-size: 16px;
 }
 
+/* Hero Start */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +66,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* Hero End */
 
+/* Content Start */
 .content {
     width: 75%;
     display: inline-block;
@@ -82,6 +92,8 @@ p {
     font-size: 36px;
 }
 
+/* The next two classes dictate where the images for the content section will lie on the page.
+    These classes are only used for the images in the content div in html */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -91,7 +103,9 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* Content End */
 
+/* Benefits Start */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -118,7 +132,11 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Benefits End */
 
+/* BODY STYLE END */
+
+/* FOOTER START */
 .footer {
     padding: 30px;
     clear: both;
@@ -129,3 +147,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* FOOTER END */
