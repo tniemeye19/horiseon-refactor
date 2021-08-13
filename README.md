@@ -1,12 +1,22 @@
 # Horiseon Refactor
 
-# Description
+## Description
 Horiseon Social Solution Services webpage provides the user the ability to quickly view its contents via the quicklink tabs in the header. The benefits of using Horiseon are outlined on the right as you scroll down the page. 
 
-# Website Screenshot
- ![Website Screenshot](horiseon-refactor/Develop/assets/images/horiseon-refactor-screenshot.png)
+## Table of Contents
+* Horiseion Services
+    * Search Engine Optimization
+    * Online Reputation Management
+    * Social Media Marketing
+* Horiseon Benefits
+    * Lead Generation
+    * Brand Awareness
+    * Cost Management
 
-# Website Link
+## Website Screenshot
+ ![Website Screenshot](https://github.com/tniemeye19/horiseon-refactor/blob/main/Develop/assets/images/horiseon-refactor-screeshot.png)
+
+## Website Link
 Click [here](https://tniemeye19.github.io/horiseon-refactor) to go to the main Horiseon wepbage.
 
 
